@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:17
 VOLUME /tmp
 #EXPOSE 8888
 ADD ./target/*.jar app.jar
